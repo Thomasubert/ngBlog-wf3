@@ -23,6 +23,7 @@ export class PostListComponent implements OnInit {
     created_at: new Date()
 
   },
+  
 
   {
     title:'Enfin, un troisième article',
