@@ -5,6 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './post.component.html',
   styleUrls: ['./post.component.css']
 })
+
 export class PostComponent implements OnInit {
 
   @Input() post;
@@ -12,6 +13,19 @@ export class PostComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onLike(){
+    /* incrémenter le post like */
+    this.post.loveIts++;
+    console.log(this.post);
+  }
+
+  onDislike(){
+    /* décrémenter le post like */
+    this.post.loveIts--;
+    console.log(this.post);
+
   }
 
 }

@@ -11,7 +11,7 @@ export class PostListComponent implements OnInit {
   {
     title:'Mon premier post',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti deserunt ad sit fugiat incidunt unde commodi, omnis itaque quas iste, perspiciatis consequatur neque dolorum blanditiis ullam nisi quam ex!',
-    loveits: 0,
+    loveIts: 0,
     created_at: new Date()
 
   },
@@ -19,7 +19,7 @@ export class PostListComponent implements OnInit {
   {
     title:'Mon deuxième message',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti deserunt ad sit fugiat incidunt unde commodi, omnis itaque quas iste, perspiciatis consequatur neque dolorum blanditiis ullam nisi quam ex!',
-    loveits: 0,
+    loveIts: 0,
     created_at: new Date()
 
   },
@@ -27,7 +27,7 @@ export class PostListComponent implements OnInit {
   {
     title:'Enfin, un troisième article',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti deserunt ad sit fugiat incidunt unde commodi, omnis itaque quas iste, perspiciatis consequatur neque dolorum blanditiis ullam nisi quam ex!',
-    loveits: 0,
+    loveIts: 0,
     created_at: new Date()
 
   },
